@@ -87,6 +87,7 @@ class AnimatedComponent extends SpriteAnimationComponent
 
   @override
   void update(double dt) {
+    super.update(dt);
     position += velocity * dt;
   }
 

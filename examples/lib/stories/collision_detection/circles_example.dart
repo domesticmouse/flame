@@ -49,6 +49,7 @@ class MyCollidable extends PositionComponent
 
   @override
   void update(double dt) {
+    super.update(dt);
     if (_isWallHit) {
       removeFromParent();
       return;
